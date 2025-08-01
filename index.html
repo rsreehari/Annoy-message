@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Most Annoying Website Ever!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="spinner"></div>
+        <p id="loading-text">Loading your amazing experience...</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+    </div>
+
+    <div id="main-content" style="display: none;">
+        <header>
+            <h1 id="changing-title">🎉 CONGRATULATIONS! YOU FOUND THE MOST ANNOYING WEBSITE! 🎉</h1>
+        </header>
+
+        <div class="container">
+            <div class="speech-bubble">
+                <p id="dialogue">Hello there! I'm so excited to meet you! Did you know that...</p>
+            </div>
+
+            <div class="buttons-container">
+                <button id="runaway-btn" class="runaway-button">Try to Click Me!</button>
+                <button id="multiply-btn" class="normal-button">Don't Click This</button>
+                <button id="sound-btn" class="normal-button">Make It Stop!</button>
+            </div>
+
+            <div class="fake-form">
+                <h3>Please Fill Out This Important Survey:</h3>
+                <input type="text" id="name-input" placeholder="Your name (this will be ignored)">
+                <button id="submit-btn" class="submit-button">Submit (This Does Nothing)</button>
+            </div>
+
+            <div id="popup-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
